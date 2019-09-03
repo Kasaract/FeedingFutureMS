@@ -3203,6 +3203,8 @@ img{
 .feature-block-two{
 	position: relative;
 	margin-bottom: 60px;
+
+	margin-bottom: 15px;
 }
 
 .feature-block-two .inner-box{
