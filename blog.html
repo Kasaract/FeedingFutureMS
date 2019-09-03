@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Contact</title>
+<title>Blog</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -92,97 +92,74 @@
             <span class="shape-layer-2"></span>
         </div>
         <div class="auto-container">
-            <h1>Contact Us</h1>
+            <h1>Blog</h1>
             <ul class="bread-crumb clearfix">
                 <li><a href="index.html">Home</a></li>
-                <li>Contact Us</li>
+                <li>Blog</li>
             </ul>
         </div>
     </section>
     <!--End Page Title-->
 
-    <!-- Contact Info Section -->
-    <section class="contact-info-section">
+    <!--Sidebar Page Container-->
+    <div class="sidebar-page-container">
         <div class="auto-container">
-            <div class="row">
-                <!-- Contact Info Block -->
-                <!-- <div class="contact-info-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-                    <div class="inner-box">
-                        <div class="icon-box"><span class="icon flaticon-movie-tickets"></span></div>
-                        <h5><a href="#">Tickets info</a></h5>
-                        <ul class="info-list">
-                            <li><span class="icon icon_profile"></span> Phillip Anthropy</li>
-                            <li><span class="icon icon_phone"></span> <a href="tel:+690-147-265-345"> +690 147 265 345</a></li>
-                            <li><span class="icon icon_mail"></span> <a href="mailto:sopport@droitlab.com"> sopport@droitlab.com</a></li>
-                        </ul>
-                    </div>
-                </div> -->
-            </div>
-        </div>
-    </section>
-    <!--End Contact Info Section -->
+            <div class="row clearfix">
 
-    <!-- Contact Form Section -->
-    <section class="contact-form-section">
-        <div class="auto-container">
-            <div class="sec-title style-two">
-                <span class="title">contact us</span>
-                <h2>Get in Touch</h2>
-            </div>
-            <div class="row">
-                <div class="form-column col-lg-12 col-md-12 col-sm-12">
-                    <div class="inner-column">
-                        <div class="contact-form default-form">
-                            <form method="post" action="sendemail.php" id="contact-form">
-                                <div class="form-group">
-                                    <input type="text" name="username" placeholder="Your Name" required="">
+                <!--Content Side / Blog Sidebar-->
+                <div class="content-side col-lg-8 col-md-12 col-sm-12">
+                    <div class="blog-sidebar">
+                        <!-- News Block -->
+                        <div class="news-block-two wow fadeInUp">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <figure class="image"><a href="blog-single.html"><img src="images/resource/blog-1.jpg" alt=""></a></figure>
+                                    <span class="tag">Eventa</span>
                                 </div>
-                                
-                                <div class="form-group">
-                                    <input type="email" name="email" placeholder="Your Email" required="">
+                                <div class="lower-content">
+                                    <ul class="post-info">
+                                        <li><span class="icon icon_calendar"></span> January 20, 2019</li>
+                                        <li><span class="icon icon_chat_alt"></span> 10 Comments</li>
+                                    </ul>
+                                    <h3><a href="blog-single.html">Example Blog Post Title</a></h3>
+                                    <div class="text">Example blog post description used to fill space for demo purposes. Example blog post description used to fill space for demo purposes. Example blog post description used to fill space for demo purposes...</div>
+                                    <div class="author-info">
+                                        <div class="thumb"><img src="images/resource/thumb-5.jpg" alt=""></div>
+                                        <span class="name">Mayukh Datta</span>
+                                    </div>
                                 </div>
-                                
-                                <div class="form-group">
-                                    <input type="text" name="subject" placeholder="Subject" required="">
-                                </div>
-
-                                <div class="form-group">
-                                    <textarea name="message" placeholder="Your Question"></textarea>
-                                </div>
-                                
-                                <div class="form-group ">
-                                    <button class="theme-btn btn-style-three" type="submit" name="Submit">Send Message</button>
-                                </div>
-                            </form>
+                            </div>
                         </div>
+
+                        <!--Styled Pagination-->
+                        <ul class="styled-pagination clearfix">
+                            <li><a href="#" class="active">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#"><span class="icon arrow_carrot-right"></span></a></li>
+                        </ul>
+                        <!--End Styled Pagination-->
                     </div>
                 </div>
-
-                <!-- Sidebar Column -->
-                <!-- <div class="sidebar-column col-lg-4 col-md-12 col-sm-12">
-                    <div class="inner-column">
-                        <div class="social-widget">
-                            <h3 class="sidebar-title">Follow Us</h3>
-                            <ul class="social-icon-two">
-                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fab fa-vimeo-v"></span></a></li>
-                                <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                                <li><a href="#"><span class="fab fa-dribbble"></span></a></li>
-                            </ul>
-                        </div>
-
-                        <div class="support-widget">
-                            <h3 class="sidebar-title">Call for Support</h3>
-                            <div class="text">Me old mucker spend a penny cack nice one a blinding shot young delinquent bender old Queen's English burke, fantastic cobbler.!</div>
-                            <div class="info"><span class="icon icon_phone"></span> <a href="mailto:+693-456-127-895">+693 456 127 895</a></div>
-                        </div>
-                    </div>
-                </div> -->
+                
+                <!--Sidebar Side-->
+                <div class="sidebar-side col-lg-4 col-md-12 col-sm-12">
+                  <aside class="sidebar padding-left">
+                      
+                      <!-- Search -->
+                      <div class="sidebar-widget search-box">
+                        <form method="post" action="">
+                          <div class="form-group">
+                            <input type="search" name="search-field" value="" placeholder="Search..." required>
+                            <button type="submit"><span class="icon icon_search"></span></button>
+                          </div>
+                        </form>
+                      </div>                        
+                  </aside>
+                </div>
             </div>
         </div>
-    </section>
-    <!--End Contact Form Section -->
+    </div>
+    <!-- End Sidebar Page Container -->
 
     <!-- Main Footer -->
     <footer class="main-footer">
@@ -244,17 +221,13 @@
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery-ui.js"></script>
+<script src="js/jquery.countdown.js"></script>
 <script src="js/jquery.fancybox.js"></script>
-<script src="js/validate.js"></script>
 <script src="js/appear.js"></script>
 <script src="js/parallax.min.js"></script>
 <script src="js/swiper.min.js"></script>
 <script src="js/owl.js"></script>
 <script src="js/wow.js"></script>
 <script src="js/script.js"></script>
-<!--Google Map APi Key-->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcaOOcFcQ0hoTqANKZYz-0ii-J0aUoHjk"></script>
-<script src="js/map-script.js"></script>
-<!--End Google Map APi-->
 </body>
 </html>
